@@ -1,0 +1,20 @@
+from transformers import pipeline
+
+# Load the summarization pipeline
+summarizer = pipeline("summarization")
+
+# Input: Replace with a long article about MS Dhoni
+dhoni_article = """
+Mahendra Singh Dhoni, commonly known as MS Dhoni, is one of the most successful captains in the history of Indian cricket.
+He led India to numerous victories including the 2007 T20 World Cup, the 2011 ICC World Cup, and the 2013 Champions Trophy.
+Known for his calm demeanor and sharp cricketing mind, Dhoni has been praised for his leadership, wicket-keeping, and finishing skills.
+He played for Chennai Super Kings (CSK) in the IPL, leading them to multiple championships. 
+Even after retiring from international cricket in 2020, he remains a beloved and respected figure in the cricketing world.
+"""
+
+# Summarize the article
+summary = summarizer(dhoni_article, max_length=80, min_length=30, do_sample=False)
+
+# Display the summary
+print("📝 Summary:")
+print(summary[0]['summary_text'])
