@@ -1,10 +1,10 @@
 # TEXT-SUMMARIZATION-TOOL 
-"COMPANY":CODTECH IT SOLUTIONS 
-"NAME":THANUKKA S
-"INTERN ID":CITS0D534
-"DOMAIN":ARTIFICIAL INTELLIGENCE
-"DURATION":4 WEEKS
-"MENTOR":NEELA SANTHOSH
+"COMPANY":CODTECH IT SOLUTIONS     
+"NAME":THANUKKA S            
+"INTERN ID":CITS0D534            
+"DOMAIN":ARTIFICIAL INTELLIGENCE    
+"DURATION":4 WEEKS            
+"MENTOR":NEELA SANTHOSH          
  "DESCRIPTION":
 
 This project involves the development of a tool that automatically summarizes lengthy articles using Natural Language Processing (NLP). The tool is designed to process and condense long-form content related to notable personalities—such as Mahendra Singh Dhoni—into short, readable summaries while preserving key information and context.
